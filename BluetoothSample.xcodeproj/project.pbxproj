@@ -13,6 +13,8 @@
 		948C0D141AAA117400847345 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948C0D131AAA117400847345 /* Images.xcassets */; };
 		948C0D171AAA117400847345 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948C0D151AAA117400847345 /* LaunchScreen.xib */; };
 		948C0D231AAA117500847345 /* BluetoothSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C0D221AAA117500847345 /* BluetoothSampleTests.swift */; };
+		948C0D5B1AAA11B800847345 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948C0D5A1AAA11B800847345 /* CoreBluetooth.framework */; };
+		948C0E271AAA852000847345 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C0E261AAA852000847345 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		948C0D1C1AAA117500847345 /* BluetoothSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		948C0D211AAA117500847345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948C0D221AAA117500847345 /* BluetoothSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothSampleTests.swift; sourceTree = "<group>"; };
+		948C0D5A1AAA11B800847345 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		948C0E261AAA852000847345 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948C0D5B1AAA11B800847345 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		948C0CFE1AAA117400847345 = {
 			isa = PBXGroup;
 			children = (
+				948C0D5A1AAA11B800847345 /* CoreBluetooth.framework */,
 				948C0D091AAA117400847345 /* BluetoothSample */,
 				948C0D1F1AAA117500847345 /* BluetoothSampleTests */,
 				948C0D081AAA117400847345 /* Products */,
@@ -83,6 +89,7 @@
 				948C0D131AAA117400847345 /* Images.xcassets */,
 				948C0D151AAA117400847345 /* LaunchScreen.xib */,
 				948C0D0A1AAA117400847345 /* Supporting Files */,
+				948C0E261AAA852000847345 /* ImageViewController.swift */,
 			);
 			path = BluetoothSample;
 			sourceTree = "<group>";
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				948C0D0F1AAA117400847345 /* ViewController.swift in Sources */,
+				948C0E271AAA852000847345 /* ImageViewController.swift in Sources */,
 				948C0D0D1AAA117400847345 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
